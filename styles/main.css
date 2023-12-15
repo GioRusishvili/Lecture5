@@ -15,13 +15,13 @@ header li{
 .active{
     color: red;
 }
-
 header li a{
     display: block;
     text-align: center;
     padding: 30px 0px 30px 130px;
     color: rgb(3, 3, 212);
 }
+
 
 .featured{
     margin: 30px 0px 20px 200px;
@@ -58,9 +58,6 @@ header li a{
 .textbox{
     display: inline-block;
     width: 69%;
-}
-.textbox p{
-    display: inline-block;
     font-size: 19px;
 }
 .box h2{

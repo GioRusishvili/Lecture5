@@ -1,14 +1,68 @@
-header img {
-    float: left;
-    width: 60px;
-    margin: 5px;
+body{
+    border: groove rgb(209, 204, 204) 7px;
 }
-header li{
+header img {
+    width: 60px;
+    margin: 0px 0px 10px 20px;
+}
+header ul{
     display: inline-block;
-    margin-left: 50px;
-    margin-top: 30px;
     font-size: 25px;
 }
+header li{
+    float: left;
+}
+.active{
+    color: red;
+}
+header li a{
+    display: block;
+    text-align: center;
+    padding: 30px 0px 30px 130px;
+    color: rgb(3, 3, 212);
+}
+
+
+
+
+
+.smallbox{
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.smallbox img{
+    height: 45px;
+}
+.smallbox h2{
+    font-size: 23px;
+    color: blue;
+}
+.box{
+    display: inline-block;
+    height: 300px;
+    margin-left: 30px;
+}
+.box img{
+    height: 180px;
+    vertical-align: top;
+    width: 17%;
+}
+.textbox{
+    display: inline-block;
+    width: 70%;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.box h2{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+
 
 footer img{
     height: 30px;
@@ -21,6 +75,6 @@ footer p{
     color: rgb(108, 89, 160);
 }
 footer{
-    margin-left: 53px;
+    margin-left: 8px;
     margin-top: 70px;
 }
